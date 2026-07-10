@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="984" height="520" viewBox="0 0 984 520" role="img" aria-labelledby="title desc">
+  <title id="title">meownbb terminal profile</title>
+  <desc id="desc">A terminal-style GitHub profile card with fake public details.</desc>
+  <style>
+    .bg { fill: #0d1117; }
+    .panel { fill: #121a22; stroke: #30363d; stroke-width: 1; }
+    .muted { fill: #7d8590; }
+    .text { fill: #d6deeb; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .dim { fill: #8b949e; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .label { fill: #f6a34a; font: 700 15px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .value { fill: #9cc9ff; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .good { fill: #3fb950; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .bad { fill: #ff7b72; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ascii { fill: #d6deeb; font: 14px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .cyan { fill: #79c0ff; }
+    .green { fill: #7ee787; }
+    .orange { fill: #f6a34a; }
+  </style>
+
+  <rect class="bg" width="984" height="520" rx="14"/>
+  <rect class="panel" x="18" y="18" width="948" height="484" rx="10"/>
+
+  <text class="ascii" xml:space="preserve">
+    <tspan x="48" y="58" class="green">          .--.      .--.</tspan>
+    <tspan x="48" y="78" class="green">         /    \    /    \</tspan>
+    <tspan x="48" y="98" class="green">        /  /\  \__/  /\  \</tspan>
+    <tspan x="48" y="118" class="green">       /  /  \      /  \  \</tspan>
+    <tspan x="48" y="138" class="green">      /__/    \____/    \__\</tspan>
+    <tspan x="48" y="158" class="cyan">      ___ ___  ___  _ _ _ _  _ ___ ___</tspan>
+    <tspan x="48" y="178" class="cyan">     |  _| __|/ _ \| | | | \| | _ ) _ )</tspan>
+    <tspan x="48" y="198" class="cyan">     |  _| _|| (_) | | | | .` | _ \ _ \</tspan>
+    <tspan x="48" y="218" class="cyan">     |_| |___|\___/ \___/|_|\_|___/___/</tspan>
+    <tspan x="48" y="258">        +---------------------------+</tspan>
+    <tspan x="48" y="278">        |  public info: fake        |</tspan>
+    <tspan x="48" y="298">        |  commits:      real       |</tspan>
+    <tspan x="48" y="318">        +---------------------------+</tspan>
+    <tspan x="48" y="358" class="orange">        /dev/null accepts all logs</tspan>
+    <tspan x="48" y="378" class="dim">        uptime: 99y 13m 404d</tspan>
+  </text>
+
+  <text class="text" xml:space="preserve">
+    <tspan x="390" y="56">meownbb@localhost --------------------------------------</tspan>
+
+    <tspan x="390" y="86" class="dim">- </tspan><tspan class="label">OS</tspan><tspan class="dim">: ..................... </tspan><tspan class="value">Linux, Windows, macOS</tspan>
+    <tspan x="390" y="112" class="dim">- </tspan><tspan class="label">Host</tspan><tspan class="dim">: ................... </tspan><tspan class="value">Homelab rack, inc.</tspan>
+    <tspan x="390" y="138" class="dim">- </tspan><tspan class="label">Shell</tspan><tspan class="dim">: .................. </tspan><tspan class="value">zsh, bash, caffeine</tspan>
+    <tspan x="390" y="164" class="dim">- </tspan><tspan class="label">Editor</tspan><tspan class="dim">: ................. </tspan><tspan class="value">Terminal, VSCode</tspan>
+    <tspan x="390" y="190" class="dim">- </tspan><tspan class="label">Kernel</tspan><tspan class="dim">: ................. </tspan><tspan class="value">caffeine-6.9.0-local</tspan>
+
+    <tspan x="390" y="236">- Code -----------------------------------------------</tspan>
+    <tspan x="390" y="264" class="dim">- </tspan><tspan class="label">Languages</tspan><tspan class="dim">: .............. </tspan><tspan class="value">Python, TypeScript, Go, Bash</tspan>
+    <tspan x="390" y="290" class="dim">- </tspan><tspan class="label">Web</tspan><tspan class="dim">: .................... </tspan><tspan class="value">HTML, CSS, JSON, YAML, SQL</tspan>
+    <tspan x="390" y="316" class="dim">- </tspan><tspan class="label">Tools</tspan><tspan class="dim">: .................. </tspan><tspan class="value">Git, Docker, Linux, 10GbE</tspan>
+
+    <tspan x="390" y="362">- Interests ------------------------------------------</tspan>
+    <tspan x="390" y="390" class="dim">- </tspan><tspan class="label">Software</tspan><tspan class="dim">: ............... </tspan><tspan class="value">Self-hosting, local AI, automation</tspan>
+    <tspan x="390" y="416" class="dim">- </tspan><tspan class="label">Hardware</tspan><tspan class="dim">: ............... </tspan><tspan class="value">NAS, servers, clean racks</tspan>
+
+    <tspan x="390" y="462">- Stats ----------------------------------------------</tspan>
+    <tspan x="390" y="488" class="dim">- </tspan><tspan class="label">Bugs</tspan><tspan class="dim">: </tspan><tspan class="bad">404 made</tspan><tspan class="dim"> / </tspan><tspan class="good">403 fixed</tspan><tspan class="dim">  |  Contact: </tspan><tspan class="value">null@localhost</tspan>
+  </text>
+</svg>
