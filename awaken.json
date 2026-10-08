@@ -1,7 +1,7 @@
 {
   "username": "meownbb",
-  "layout": "dashboard",
-  "theme": "jade_sect",
+  "layout": "default",
+  "theme": "solo_leveling",
   "title": "auto",
   "activity": "arise",
   "icons": "rune",
