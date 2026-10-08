@@ -2,7 +2,7 @@
   "login": "meownbb",
   "level": 2,
   "overall": "E",
-  "overallPercentile": 0.3176359320476088,
+  "overallPercentile": 0.3255349417833869,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 3,
+      "value": 4,
       "rank": "E",
-      "percentile": 0.08369112026801168
+      "percentile": 0.0987071945913395
     },
     {
       "code": "AGI",
@@ -104,7 +104,7 @@
     {
       "id": "relentless",
       "tier": 0,
-      "value": 3
+      "value": 4
     },
     {
       "id": "unbroken",
@@ -174,7 +174,7 @@
     {
       "id": "berserker",
       "tier": 0,
-      "value": 2
+      "value": 3
     },
     {
       "id": "diligent",
@@ -228,5 +228,5 @@
     "escapes": 0,
     "kinds": []
   },
-  "syncedAt": "2026-10-08T08:06:33.934Z"
+  "syncedAt": "2026-10-08T08:14:52.487Z"
 }
