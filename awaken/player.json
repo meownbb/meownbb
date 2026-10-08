@@ -1,45 +1,45 @@
 {
   "login": "meownbb",
-  "level": 25,
-  "overall": "S",
-  "overallPercentile": 0.9585834887298939,
+  "level": 1,
+  "overall": "E",
+  "overallPercentile": 0.28915811359318416,
   "layout": "dashboard",
   "class": {
-    "name": "Grand Magus",
-    "element": "Arcane",
-    "from": "Python"
+    "name": "Novice",
+    "element": "Neutral",
+    "from": null
   },
-  "title": "Berserker",
+  "title": "Veteran",
   "stats": [
     {
       "code": "STR",
-      "value": 5299,
-      "rank": "SSS",
-      "percentile": 0.9987971831107199
+      "value": 1,
+      "rank": "E",
+      "percentile": 0.05574415835570744
     },
     {
       "code": "AGI",
-      "value": 92,
-      "rank": "SS",
-      "percentile": 0.9836139029078481
+      "value": 0,
+      "rank": "E",
+      "percentile": 0
     },
     {
       "code": "INT",
-      "value": 3,
+      "value": 1,
       "rank": "B",
-      "percentile": 0.8278787901671979
+      "percentile": 0.7872854778967882
     },
     {
       "code": "VIT",
-      "value": 18,
-      "rank": "SS",
-      "percentile": 0.9903581751585077
+      "value": 1,
+      "rank": "E",
+      "percentile": 0.19027288417987814
     },
     {
       "code": "LUK",
-      "value": 1,
-      "rank": "B",
-      "percentile": 0.7912280168701755
+      "value": 0,
+      "rank": "E",
+      "percentile": 0
     },
     {
       "code": "CHA",
@@ -48,52 +48,88 @@
       "percentile": 0
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "kind": "overall",
+      "subject": "Overall rank",
+      "from": "S",
+      "to": "E",
+      "at": "2026-10-08T08:01:27.961Z"
+    },
+    {
+      "kind": "stat",
+      "subject": "STR",
+      "from": "SSS",
+      "to": "E",
+      "at": "2026-10-08T08:01:27.961Z"
+    },
+    {
+      "kind": "stat",
+      "subject": "AGI",
+      "from": "SS",
+      "to": "E",
+      "at": "2026-10-08T08:01:27.961Z"
+    },
+    {
+      "kind": "stat",
+      "subject": "VIT",
+      "from": "SS",
+      "to": "E",
+      "at": "2026-10-08T08:01:27.961Z"
+    },
+    {
+      "kind": "stat",
+      "subject": "LUK",
+      "from": "B",
+      "to": "E",
+      "at": "2026-10-08T08:01:27.961Z"
+    }
+  ],
   "achievements": [
     {
       "id": "pull-shark",
-      "tier": 2,
-      "value": 88
+      "tier": 0,
+      "value": 0
     },
     {
       "id": "quickdraw",
-      "tier": 2,
-      "value": 19
+      "tier": 0,
+      "value": 0
     },
     {
       "id": "yolo",
-      "tier": 2,
-      "value": 30
+      "tier": 0,
+      "value": 0
     },
     {
       "id": "relentless",
-      "tier": 3,
-      "value": 5299
+      "tier": 0,
+      "value": 1
     },
     {
       "id": "unbroken",
-      "tier": 2,
-      "value": 48
+      "tier": 0,
+      "value": 1
     },
     {
       "id": "night-owl",
       "tier": 0,
-      "value": 19
+      "value": 0
     },
     {
       "id": "early-bird",
       "tier": 0,
-      "value": 6
+      "value": 0
     },
     {
       "id": "weekend-warrior",
-      "tier": 2,
-      "value": 33
+      "tier": 0,
+      "value": 0
     },
     {
       "id": "gate-opener",
-      "tier": 2,
-      "value": 20
+      "tier": 0,
+      "value": 1
     },
     {
       "id": "raider",
@@ -102,8 +138,8 @@
     },
     {
       "id": "flawless",
-      "tier": 2,
-      "value": 96
+      "tier": 0,
+      "value": 0
     },
     {
       "id": "healer",
@@ -112,13 +148,13 @@
     },
     {
       "id": "polyglot",
-      "tier": 2,
-      "value": 5
+      "tier": 0,
+      "value": 0
     },
     {
       "id": "star-collector",
       "tier": 0,
-      "value": 1
+      "value": 0
     },
     {
       "id": "beacon",
@@ -127,8 +163,8 @@
     },
     {
       "id": "guild-hopper",
-      "tier": 1,
-      "value": 1
+      "tier": 0,
+      "value": 0
     },
     {
       "id": "veteran",
@@ -137,13 +173,13 @@
     },
     {
       "id": "berserker",
-      "tier": 3,
-      "value": 132
+      "tier": 0,
+      "value": 2
     },
     {
       "id": "diligent",
-      "tier": 2,
-      "value": 199
+      "tier": 0,
+      "value": 1
     },
     {
       "id": "daily-grinder",
@@ -192,5 +228,5 @@
     "escapes": 0,
     "kinds": []
   },
-  "syncedAt": "2026-10-08T07:59:13.422Z"
+  "syncedAt": "2026-10-08T08:01:27.961Z"
 }
