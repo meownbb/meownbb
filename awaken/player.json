@@ -1,21 +1,21 @@
 {
   "login": "meownbb",
-  "level": 2,
-  "overall": "E",
-  "overallPercentile": 0.3351397103346889,
+  "level": 24,
+  "overall": "C",
+  "overallPercentile": 0.6601204419035447,
   "layout": "default",
   "class": {
     "name": "Novice",
     "element": "Neutral",
     "from": null
   },
-  "title": "Veteran",
+  "title": "Berserker",
   "stats": [
     {
       "code": "STR",
-      "value": 5,
-      "rank": "E",
-      "percentile": 0.11379142115753826
+      "value": 5303,
+      "rank": "SSS",
+      "percentile": 0.9987991498550423
     },
     {
       "code": "AGI",
@@ -50,39 +50,60 @@
   ],
   "events": [
     {
+      "kind": "level",
+      "subject": "Level",
+      "from": "2",
+      "to": "24",
+      "at": "2026-10-08T08:22:31.551Z"
+    },
+    {
       "kind": "overall",
       "subject": "Overall rank",
-      "from": "S",
-      "to": "E",
-      "at": "2026-10-08T08:06:33.934Z"
+      "from": "E",
+      "to": "C",
+      "at": "2026-10-08T08:22:31.551Z"
     },
     {
       "kind": "stat",
       "subject": "STR",
-      "from": "SSS",
-      "to": "E",
-      "at": "2026-10-08T08:06:33.934Z"
+      "from": "E",
+      "to": "SSS",
+      "at": "2026-10-08T08:22:31.551Z"
     },
     {
-      "kind": "stat",
-      "subject": "AGI",
-      "from": "SS",
-      "to": "E",
-      "at": "2026-10-08T08:06:33.934Z"
+      "kind": "achievement",
+      "subject": "relentless",
+      "from": "0",
+      "to": "3",
+      "at": "2026-10-08T08:22:31.551Z"
     },
     {
-      "kind": "stat",
-      "subject": "VIT",
-      "from": "SS",
-      "to": "E",
-      "at": "2026-10-08T08:06:33.934Z"
+      "kind": "achievement",
+      "subject": "unbroken",
+      "from": "0",
+      "to": "2",
+      "at": "2026-10-08T08:22:31.551Z"
     },
     {
-      "kind": "stat",
-      "subject": "LUK",
-      "from": "B",
-      "to": "E",
-      "at": "2026-10-08T08:06:33.934Z"
+      "kind": "achievement",
+      "subject": "weekend-warrior",
+      "from": "0",
+      "to": "2",
+      "at": "2026-10-08T08:22:31.551Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "gate-opener",
+      "from": "0",
+      "to": "2",
+      "at": "2026-10-08T08:22:31.551Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "berserker",
+      "from": "0",
+      "to": "3",
+      "at": "2026-10-08T08:22:31.551Z"
     }
   ],
   "achievements": [
@@ -103,13 +124,13 @@
     },
     {
       "id": "relentless",
-      "tier": 0,
-      "value": 5
+      "tier": 3,
+      "value": 5303
     },
     {
       "id": "unbroken",
-      "tier": 0,
-      "value": 1
+      "tier": 2,
+      "value": 48
     },
     {
       "id": "night-owl",
@@ -123,13 +144,13 @@
     },
     {
       "id": "weekend-warrior",
-      "tier": 0,
-      "value": 0
+      "tier": 2,
+      "value": 33
     },
     {
       "id": "gate-opener",
-      "tier": 0,
-      "value": 1
+      "tier": 2,
+      "value": 20
     },
     {
       "id": "raider",
@@ -173,13 +194,13 @@
     },
     {
       "id": "berserker",
-      "tier": 0,
-      "value": 4
+      "tier": 3,
+      "value": 132
     },
     {
       "id": "diligent",
-      "tier": 0,
-      "value": 2
+      "tier": 2,
+      "value": 200
     },
     {
       "id": "daily-grinder",
@@ -228,5 +249,5 @@
     "escapes": 0,
     "kinds": []
   },
-  "syncedAt": "2026-10-08T08:17:40.104Z"
+  "syncedAt": "2026-10-08T08:22:31.551Z"
 }
