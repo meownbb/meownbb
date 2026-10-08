@@ -1,0 +1,14 @@
+{
+  "username": "meownbb",
+  "layout": "dashboard",
+  "theme": "jade_sect",
+  "title": "auto",
+  "activity": "arise",
+  "icons": "rune",
+  "motion": "full",
+  "timezone": "Asia/Bangkok",
+  "hours": true,
+  "arsenal": ["Docker", "Linux", "Python", "Bash", "MikroTik", "Cloudflare", "Node.js", "Git", "Bambu Lab", "FFmpeg"],
+  "outDir": "awaken",
+  "readme": "README.md"
+}

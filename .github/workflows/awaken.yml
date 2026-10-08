@@ -1,0 +1,26 @@
+name: Awaken
+
+on:
+  schedule:
+    # 00:10 giờ Việt Nam (UTC+7) mỗi ngày.
+    - cron: "10 17 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [awaken.json]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: awaken
+  cancel-in-progress: true
+
+jobs:
+  awaken:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: billtruong003/git-profile-awaken@main
+        with:
+          token: ${{ secrets.AWAKEN_TOKEN || github.token }}
