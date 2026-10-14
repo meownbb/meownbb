@@ -50,6 +50,13 @@
   ],
   "events": [
     {
+      "kind": "achievement",
+      "subject": "collector",
+      "from": "0",
+      "to": "1",
+      "at": "2026-10-14T20:37:34.785Z"
+    },
+    {
       "kind": "level",
       "subject": "Level",
       "from": "2",
@@ -96,13 +103,6 @@
       "subject": "gate-opener",
       "from": "0",
       "to": "2",
-      "at": "2026-10-08T08:22:31.551Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "berserker",
-      "from": "0",
-      "to": "3",
       "at": "2026-10-08T08:22:31.551Z"
     }
   ],
@@ -215,7 +215,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 4
+      "value": 5
     },
     {
       "id": "boss-slayer",
@@ -229,12 +229,17 @@
     },
     {
       "id": "collector",
-      "tier": 0,
-      "value": 3
+      "tier": 1,
+      "value": 4
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-14",
+        "cleared": 1,
+        "total": 3
+      },
       {
         "date": "2026-10-13",
         "cleared": 0,
@@ -274,14 +279,15 @@
     "perfectDays": 1,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 4,
+    "questsDone": 5,
     "bosses": [],
     "escapes": 1,
     "kinds": [
       "contribute",
       "three",
-      "commit"
+      "commit",
+      "mp"
     ]
   },
-  "syncedAt": "2026-10-13T21:48:14.796Z"
+  "syncedAt": "2026-10-14T20:37:34.785Z"
 }
