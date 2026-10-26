@@ -2,7 +2,7 @@
   "login": "meownbb",
   "level": 24,
   "overall": "C",
-  "overallPercentile": 0.6617478012568838,
+  "overallPercentile": 0.6617883222280427,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 5577,
+      "value": 5584,
       "rank": "SSS",
-      "percentile": 0.9989239927843812
+      "percentile": 0.9989269436833554
     },
     {
       "code": "AGI",
@@ -68,7 +68,7 @@
     {
       "id": "relentless",
       "tier": 3,
-      "value": 5577
+      "value": 5584
     },
     {
       "id": "unbroken",
@@ -143,22 +143,22 @@
     {
       "id": "diligent",
       "tier": 2,
-      "value": 211
+      "value": 212
     },
     {
       "id": "daily-grinder",
       "tier": 0,
-      "value": 5
+      "value": 6
     },
     {
       "id": "perfect-week",
       "tier": 0,
-      "value": 3
+      "value": 4
     },
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 29
+      "value": 32
     },
     {
       "id": "boss-slayer",
@@ -178,6 +178,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-26",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-10-25",
         "cleared": 3,
@@ -274,10 +279,10 @@
         "total": 3
       }
     ],
-    "perfectDays": 5,
-    "run": 3,
-    "bestRun": 3,
-    "questsDone": 29,
+    "perfectDays": 6,
+    "run": 4,
+    "bestRun": 4,
+    "questsDone": 32,
     "bosses": [
       "2026-10-19",
       "2026-10-12"
@@ -292,5 +297,5 @@
       "weekend"
     ]
   },
-  "syncedAt": "2026-10-25T19:32:44.212Z"
+  "syncedAt": "2026-10-26T21:36:01.114Z"
 }
