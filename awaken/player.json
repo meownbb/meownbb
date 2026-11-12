@@ -2,7 +2,7 @@
   "login": "meownbb",
   "level": 24,
   "overall": "C",
-  "overallPercentile": 0.6623446636390427,
+  "overallPercentile": 0.6623503495760447,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 5681,
+      "value": 5682,
       "rank": "SSS",
-      "percentile": 0.9989667153522072
+      "percentile": 0.9989671147536902
     },
     {
       "code": "AGI",
@@ -48,7 +48,22 @@
       "percentile": 0
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "kind": "achievement",
+      "subject": "quest-hunter",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-12T22:41:10.354Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "escape-artist",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-12T22:41:10.354Z"
+    }
+  ],
   "achievements": [
     {
       "id": "pull-shark",
@@ -68,7 +83,7 @@
     {
       "id": "relentless",
       "tier": 3,
-      "value": 5681
+      "value": 5682
     },
     {
       "id": "unbroken",
@@ -143,7 +158,7 @@
     {
       "id": "diligent",
       "tier": 2,
-      "value": 217
+      "value": 218
     },
     {
       "id": "daily-grinder",
@@ -157,8 +172,8 @@
     },
     {
       "id": "quest-hunter",
-      "tier": 0,
-      "value": 49
+      "tier": 1,
+      "value": 50
     },
     {
       "id": "boss-slayer",
@@ -167,8 +182,8 @@
     },
     {
       "id": "escape-artist",
-      "tier": 0,
-      "value": 2
+      "tier": 1,
+      "value": 3
     },
     {
       "id": "collector",
@@ -178,6 +193,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-12",
+        "cleared": 1,
+        "total": 3
+      },
       {
         "date": "2026-11-11",
         "cleared": 1,
@@ -362,14 +382,14 @@
     "perfectDays": 7,
     "run": 0,
     "bestRun": 4,
-    "questsDone": 49,
+    "questsDone": 50,
     "bosses": [
       "2026-11-02",
       "2026-10-26",
       "2026-10-19",
       "2026-10-12"
     ],
-    "escapes": 2,
+    "escapes": 3,
     "kinds": [
       "contribute",
       "three",
@@ -380,5 +400,5 @@
       "average"
     ]
   },
-  "syncedAt": "2026-11-11T23:25:45.228Z"
+  "syncedAt": "2026-11-12T22:41:10.354Z"
 }
