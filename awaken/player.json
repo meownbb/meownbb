@@ -48,22 +48,7 @@
       "percentile": 0
     }
   ],
-  "events": [
-    {
-      "kind": "achievement",
-      "subject": "quest-hunter",
-      "from": "0",
-      "to": "1",
-      "at": "2026-11-12T22:41:10.354Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "escape-artist",
-      "from": "0",
-      "to": "1",
-      "at": "2026-11-12T22:41:10.354Z"
-    }
-  ],
+  "events": [],
   "achievements": [
     {
       "id": "pull-shark",
@@ -193,6 +178,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-19",
+        "cleared": 0,
+        "total": 3
+      },
       {
         "date": "2026-11-18",
         "cleared": 0,
@@ -430,5 +420,5 @@
       "average"
     ]
   },
-  "syncedAt": "2026-11-18T23:20:59.163Z"
+  "syncedAt": "2026-11-19T23:30:27.676Z"
 }
