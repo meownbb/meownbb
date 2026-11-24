@@ -2,7 +2,7 @@
   "login": "meownbb",
   "level": 24,
   "overall": "C",
-  "overallPercentile": 0.6623503495760447,
+  "overallPercentile": 0.6803200667075209,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 5682,
+      "value": 5684,
       "rank": "SSS",
-      "percentile": 0.9989671147536902
+      "percentile": 0.9989679129214398
     },
     {
       "code": "AGI",
@@ -31,9 +31,9 @@
     },
     {
       "code": "VIT",
-      "value": 1,
+      "value": 2,
       "rank": "E",
-      "percentile": 0.19027288417987814
+      "percentile": 0.35265963279786033
     },
     {
       "code": "LUK",
@@ -68,7 +68,7 @@
     {
       "id": "relentless",
       "tier": 3,
-      "value": 5682
+      "value": 5684
     },
     {
       "id": "unbroken",
@@ -93,7 +93,7 @@
     {
       "id": "gate-opener",
       "tier": 2,
-      "value": 23
+      "value": 24
     },
     {
       "id": "raider",
@@ -143,7 +143,7 @@
     {
       "id": "diligent",
       "tier": 2,
-      "value": 218
+      "value": 219
     },
     {
       "id": "daily-grinder",
@@ -178,6 +178,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-23",
+        "cleared": 0,
+        "total": 3
+      },
       {
         "date": "2026-11-22",
         "cleared": 0,
@@ -435,5 +440,5 @@
       "average"
     ]
   },
-  "syncedAt": "2026-11-22T22:25:37.254Z"
+  "syncedAt": "2026-11-24T03:16:24.735Z"
 }
